@@ -91,6 +91,9 @@ cd namisok
 Feedback
 [![Ver video en YouTube](https://img.youtube.com/vi/v98l5r4vEVs/0.jpg)](https://www.youtube.com/watch?v=v98l5r4vEVs)
 
+![Ver video en YouTube]()](https://youtube.com/shorts/ArukWkqVOiI)
+
+
 Conclusión
 
 Namisok nace desde la empatía y la necesidad humana fundamental de comunicarse.
