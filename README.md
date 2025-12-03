@@ -4,7 +4,7 @@
 
 ---
 
-## 📝 Resumen del Proyecto
+## Resumen del Proyecto
 
 **Namisok** es una aplicación móvil diseñada para facilitar la comunicación de personas con dificultades de habla o expresión (afasia, ELA, autismo no verbal, situaciones post-operatorias, entre otras).
 
@@ -17,12 +17,12 @@ La aplicación está pensada para ser:
 
 ---
 
-## 🎯 Objetivos y Público Objetivo
+##  Objetivos y Público Objetivo
 
-### 👤 Público Objetivo
+###  Público Objetivo
 Personas con dificultades de comunicación verbal, temporales o permanentes, que necesitan una herramienta ágil para expresar sus ideas, necesidades y emociones.
 
-### 🎯 Objetivos Clave
+###  Objetivos Clave
 - **Principal:** Proveer una salida de voz clara y rápida.  
 - **Accesibilidad:** Interfaz intuitiva basada en símbolos y texto.  
 - **Personalización:** Adaptación completa de frases, íconos y opciones de voz.  
@@ -30,7 +30,7 @@ Personas con dificultades de comunicación verbal, temporales o permanentes, que
 
 ---
 
-## 🚀 Funcionalidades Principales
+##  Funcionalidades Principales
 
 ### **F-01: Tablero de Comunicación (AAC)**
 Función ideal para quienes no pueden escribir en el momento.
