@@ -88,6 +88,8 @@ Asegúrate de tener **Flutter** y **Android Studio** instalados.
 git clone ----------
 cd namisok
 
+Feedback
+[![Ver video en YouTube](https://img.youtube.com/vi/v98l5r4vEVs/0.jpg)](https://www.youtube.com/watch?v=v98l5r4vEVs)
 
 Conclusión
 
