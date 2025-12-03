@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">txtToVoice</string>
+
+    <string-array name="carpeta_colores">
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+        <item>Morado</item>
+    </string-array>
+
+</resources>

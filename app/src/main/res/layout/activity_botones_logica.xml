@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/buttonName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Escriba frase/palabra a guardar"/>
+
+        <ImageButton
+            android:id="@+id/botonCrear"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:contentDescription="Crear Botón Dinámico"
+            android:src="@drawable/baseline_add_24"
+            android:background="@drawable/circle_background_color2" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/layoutPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Aquí es donde se añadirán dinámicamente los botones -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

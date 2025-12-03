@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    <!-- Cuerpo del basurero -->
+    <path
+        android:pathData="M320,280h320v40h-320z"
+        android:fillColor="#e8eaed"/>
+    <path
+        android:pathData="M280,320h400v480c0,26.5-21.5,48-48,48h-304c-26.5,0-48-21.5-48-48v-480z"
+        android:fillColor="#e8eaed"/>
+    <!-- Tapa del basurero -->
+    <path
+        android:pathData="M280,280h400v40h-400z"
+        android:fillColor="#c5c7ca"/>
+    <!-- Asa o manija -->
+    <path
+        android:pathData="M400,200h160v80h-160z"
+        android:fillColor="#9aa0a6"/>
+</vector>
