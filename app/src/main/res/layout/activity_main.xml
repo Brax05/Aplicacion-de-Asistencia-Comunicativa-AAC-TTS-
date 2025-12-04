@@ -103,7 +103,13 @@
         android:id="@+id/btnRepetir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/custom_button_background"
-        android:contentDescription="Repetir última frase" />
+        android:contentDescription="Repetir última frase"
+        android:src="@drawable/loop2"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
