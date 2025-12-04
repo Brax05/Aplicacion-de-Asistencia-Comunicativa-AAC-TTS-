@@ -24,6 +24,42 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="150dp" />
+    <SeekBar
+        android:id="@+id/seekBarPitch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintTop_toBottomOf="@id/Texto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textPitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tono de voz"
+        app:layout_constraintTop_toBottomOf="@id/seekBarPitch"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <SeekBar
+        android:id="@+id/seekBarSpeed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        app:layout_constraintTop_toBottomOf="@id/textPitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Velocidad de voz"
+        app:layout_constraintTop_toBottomOf="@id/seekBarSpeed"
+        app:layout_constraintStart_toStartOf="parent"/>
+
 
     <Spinner
         android:id="@+id/spinnerIdiomas"
@@ -62,5 +98,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Texto"
         app:layout_constraintVertical_bias="0.006" />
+
+    <ImageButton
+        android:id="@+id/btnRepetir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/custom_button_background"
+        android:contentDescription="Repetir última frase" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

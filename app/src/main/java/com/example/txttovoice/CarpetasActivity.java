@@ -60,7 +60,10 @@ public class CarpetasActivity extends AppCompatActivity {
                 position -> {
                     adapter.removeItem(position);
                     saveCarpetas();
-                });
+                },
+                this // <-- IMPORTANTE para favoritos y ordenamiento
+        );
+
 
         recyclerCarpetas.setLayoutManager(new LinearLayoutManager(this));
         recyclerCarpetas.setAdapter(adapter);

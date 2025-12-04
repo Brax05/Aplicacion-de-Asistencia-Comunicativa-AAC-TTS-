@@ -13,6 +13,7 @@
         android:clipChildren="false"
         android:clipToPadding="false">
 
+
         <TextView
             android:id="@+id/tituloCarpeta"
             android:layout_width="wrap_content"
@@ -59,5 +60,6 @@
                 android:maxLength="30"
                 android:padding="12dp"/>
         </LinearLayout>
+
     </LinearLayout>
 </FrameLayout>
